@@ -14,6 +14,11 @@ map("i", "<C-s>", "<cmd>w<cr>", opts("Save file"))
 
 -- map("n", "<leader>rl", "<cmd>luafile ~/.config/nvim/init.lua<cr>", opts("Reload neovim"))
 
+map("n", "<leader>of", "<cmd>Telescope opener<cr>", opts("Open folder with opener"))
+
+map("n", "<leader>lz", "<cmd>Lazy<cr>", opts("Open lazy"))
+map("n", "<leader>ms", "<cmd>Mason<cr>", opts("Open mason"))
+
 -- Undo / Redo
 map("n", "<C-z>", "<cmd>undo<cr>", opts("Undo"))
 map("n", "<C-y>", "<cmd>redo<cr>", opts("Redo"))

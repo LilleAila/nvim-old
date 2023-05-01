@@ -124,6 +124,12 @@ return {
 							action = "Lazy",
 						},
                         {
+                            icon = "? ",
+                            desc = "Mason",
+                            key = "m",
+                            action = "Mason",
+                        },
+                        {
                             icon = "󰩈 ",
                             desc = "Nevermind...",
                             key = "q",
