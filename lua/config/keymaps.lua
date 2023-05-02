@@ -19,6 +19,10 @@ map("n", "<leader>of", "<cmd>Telescope opener<cr>", opts("Open folder with opene
 map("n", "<leader>lz", "<cmd>Lazy<cr>", opts("Open lazy"))
 map("n", "<leader>ms", "<cmd>Mason<cr>", opts("Open mason"))
 
+-- Text
+-- map("n", "<C>'", "gcc", opts("Comment current line"))
+-- map("i", "<C>'", "gcc", opts("Comment current line"))
+
 -- Undo / Redo
 map("n", "<C-z>", "<cmd>undo<cr>", opts("Undo"))
 map("n", "<C-y>", "<cmd>redo<cr>", opts("Redo"))
@@ -65,11 +69,11 @@ map("v", "<A-Up>", "<cmd>MoveBlock(-1)<cr>", opts("Move selected block up"))
 
 
 -- Copy and paste
-map("v", "<C-c>", "y", opts("Copy selected text"))
-map("v", "<C-x>", "d", opts("Cut selected text"))
-map("n", "<C-v>", "p", opts("Paste text from clipboard"))
-map("i", "<C-v>", "p", opts("Paste text from clipboard"))
-map("t", "<C-v>", "p", opts("Paste text from clipboard"))
+-- map("v", "<C-c>", "y", opts("Copy selected text"))
+-- map("v", "<C-x>", "d", opts("Cut selected text"))
+-- map("n", "<C-v>", "p", opts("Paste text from clipboard"))
+-- map("i", "<C-v>", "p", opts("Paste text from clipboard"))
+-- map("t", "<C-v>", "p", opts("Paste text from clipboard"))
 
 -- Sessions
 map("n", "<leader>sl", "<cmd>SessionManager! load_session<cr>", opts("Load a session"))
