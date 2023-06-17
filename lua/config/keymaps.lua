@@ -79,3 +79,6 @@ map("v", "<A-Up>", "<cmd>MoveBlock(-1)<cr>", opts("Move selected block up"))
 map("n", "<leader>sl", "<cmd>SessionManager! load_session<cr>", opts("Load a session"))
 map("n", "<leader>sp", "<cmd>SessionManager! load_last_session<cr>", opts("Load previous session"))
 map("n", "<leader>sd", "<cmd>SessionManager! delete_session<cr>", opts("Delete a session"))
+
+map("n", "<leader>d", "\"_d", opts("Delete text"))
+map("v", "<leader>d", "\"_d", opts("Delete text"))
