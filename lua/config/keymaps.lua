@@ -4,6 +4,7 @@ local function opts(description)
     return { silent = true, noremap = true, desc = description }
 end
 
+vim.g.mapleader = " "
 
 -- Files
 map("n", "<leader>qa", "<cmd>wqa!<cr>", opts("Save and quit all open files"))

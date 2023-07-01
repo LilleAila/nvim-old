@@ -1,5 +1,5 @@
 if vim.g.vscode then
-    print("test")
+    require("vscode-config")
 else
     require("config")
 end
