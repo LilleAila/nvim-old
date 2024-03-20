@@ -1,5 +1,8 @@
 # Neovim config files
 
+> [!WARNING]
+> This is my old neovim config. You can find the new one [here](https://github.com/LilleAila/nvim).
+
 ## Install
 
 ### Linux
